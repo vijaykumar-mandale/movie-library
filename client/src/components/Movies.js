@@ -17,7 +17,7 @@ const Movies = () => {
 
   return (
     <>
-      <section className="movie-page">
+      <section className="movie-page" data-testid="mymovies">
         <div className="container grid grid-4-col">
           {movie.map((curMovie) => {
             const { id, name, photo } = curMovie;

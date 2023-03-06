@@ -61,7 +61,7 @@ const SingleMovie = () => {
   }
 
   return (
-    <section className="movie-section">
+    <section className="movie-section" data-testid="mysinglemovie">
       <div className="movie-card">
         <figure>
           <img src={`${SERVER_PATH}${movie.photo}`} alt="" />

@@ -1,1 +1,52 @@
-[{"id":5,"name":"Jurassic Park","released":"1993-05-11","genre":"Action, Adventure, Sci-Fi","director":"Steven Spielberg","actors":"Sam Neill, Laura Dern, Jeff Goldblum","details":"Jurassic Park Movie details","photo":"jurassic-park.jpg"},{"id":4,"name":"Superman","released":"2000-12-15","genre":"Action, Adventure, Sci-Fi","director":"Richard Donner","actors":"Christopher Reeve, Margot Kidder, Gene Hackman","details":"Superman Movie details","photo":"superman.jpg"},{"id":3,"name":"Batman","released":"1999-05-23","genre":"Action, Adventure","director":"Tim Burton","actors":"Michael Keaton, Jack Nicholson, Kim Basinger","details":"Batman Movie details","photo":"batman.jpg"},{"id":2,"name":"Titanic: The Legend Goes On...","released":"2000-10-15","genre":"Animation, Family, Fantasy","director":"Camillo Teti","actors":"Lisa Russo, Mark Thompson-Ashworth, Gisella Mathews","details":"Titanic Movie details","photo":"titanic-the.jpg"},{"id":1,"name":"Titanic","released":"1997-12-19","genre":"Drama, Romance","director":"James Cameron","actors":"Leonardo DiCaprio, Kate Winslet, Billy Zane","details":"Titanic Movie details","photo":"titanic.jpg"}]
+[
+  {
+    "id": 6,
+    "name": "My movie new",
+    "released": "2023-03-03",
+    "genre": "Comedy",
+    "director": "Jimmy",
+    "actors": "Bond",
+    "details": "my movie details",
+    "photo": "1678098798047-superman.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jurassic Park",
+    "released": "1993-05-11",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Steven Spielberg",
+    "actors": "Sam Neill, Laura Dern, Jeff Goldblum",
+    "details": "Jurassic Park Movie details",
+    "photo": "1678085135264-jurassic-park.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Batman",
+    "released": "1999-05-23",
+    "genre": "Action, Adventure",
+    "director": "Tim Burton",
+    "actors": "Michael Keaton, Jack Nicholson, Kim Basinger",
+    "details": "Batman Movie details",
+    "photo": "1678085078849-batman.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Titanic: The Legend Goes On...",
+    "released": "2000-10-15",
+    "genre": "Animation, Family, Fantasy",
+    "director": "Camillo Teti",
+    "actors": "Lisa Russo, Mark Thompson-Ashworth, Gisella Mathews",
+    "details": "Titanic Movie details",
+    "photo": "1678085061136-titanic-the.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Titanic",
+    "released": "1997-12-19",
+    "genre": "Drama, Romance",
+    "director": "James Cameron",
+    "actors": "Leonardo DiCaprio, Kate Winslet, Billy Zane",
+    "details": "Titanic Movie details",
+    "photo": "1678084970020-titanic.jpg"
+  }
+]

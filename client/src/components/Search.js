@@ -5,7 +5,7 @@ const Search = () => {
   const { query, setQuery, isError } = useGlobalContext();
   return (
     <>
-      <section className="search-section">
+      <section className="search-section" data-testid="mysearch">
         <h2>Search Your Favourite Movie</h2>
         <form action="#" onSubmit={(e) => e.preventDefault()}>
           <div>

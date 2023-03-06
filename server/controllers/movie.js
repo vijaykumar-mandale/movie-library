@@ -80,6 +80,12 @@ class movieController {
           photo: photo,
         };
 
+        var movieExist = moviesData.filter((obj) => obj.name == name);
+        if(movieExist){
+          return res
+          .status(201)
+          .json({ Response: "False", Error: "Movie Already Exists" });
+        }else{
         moviesData.push(newMovie);
         var newMovieData = JSON.stringify(moviesData);
         fs.writeFile("movies.json", newMovieData, (err) => {
@@ -93,6 +99,7 @@ class movieController {
             });
           }
         });
+      }
       } else {
         return res
           .status(200)
